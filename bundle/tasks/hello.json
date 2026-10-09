@@ -1,0 +1,14 @@
+[
+  {
+    "id": "env",
+    "type": "deploy_env",
+    "env_id": "REPLACE_WITH_ENVIRONMENT_ID"
+  },
+  {
+    "id": "verify",
+    "type": "run_code",
+    "env_id": "REPLACE_WITH_ENVIRONMENT_ID",
+    "script_artifact_id": "verify",
+    "result_id": "grade"
+  }
+]
